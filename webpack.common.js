@@ -1,5 +1,5 @@
-import { fileURLToPath } from 'node:url';
-import path from 'node:path';
+import { fileURLToPath } from "node:url";
+import path from "node:path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -15,7 +15,7 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        template: "./src/template.html",
+      template: "./src/template.html",
     }),
   ],
   module: {
